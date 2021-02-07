@@ -1,0 +1,59 @@
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+.container{
+    padding: 40px;;
+}
+#food-sector {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+#food-sector img {
+    width: 80%;
+    border-radius: 40px 40px 5px 5px;
+    width: 100%;
+}
+
+.food {
+    box-shadow: 10px 10px 10px lightgrey;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#ingredients {
+    width: 40%;
+    margin: auto;
+}
+
+.food-name {
+    padding: 25px;
+    font-size: 25px;
+}
+
+.ingredient-name {
+    padding: 25px ;
+    font-weight: 800;
+}
+
+.IngredientID-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-left: -20px;
+    font-size: 18px;
+    list-style: none;
+}
+
+img.ingredient-img {
+    border-radius: 40px;
+    width: 85%;
+}
+
+.ingredient {
+    margin-bottom: 65px;
+}
